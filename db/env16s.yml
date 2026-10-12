@@ -1,0 +1,74 @@
+# 16S analysis environment
+#
+# This file documents the conda environment `16s` that `16s.sh` activates.
+# It is kept for reproducibility; the environment is already built.
+#
+# Re-create with:
+#   conda env create -f db/env16s.yml
+#   conda activate 16s
+#   Rscript -e 'install.packages("amplicon", repos="https://mirrors.tuna.tsinghua.edu.cn/CRAN")'
+#
+# NOTE: `amplicon` has been ARCHIVED on CRAN and is not packaged on
+# conda-forge, so it cannot be listed below. It IS installed in the env
+# (v1.19.0, pure R - copied from the main conda R library). See the note
+# at the bottom.
+
+name: 16s
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # --- command line tools ---
+  - vsearch              # merge / filter / derep / UNOISE3 / chimera / sintax
+  - mafft                # multiple alignment
+  - fasttree             # phylogenetic tree
+  - seqkit               # fastq utilities
+  - perl
+  - python=3.10          # FAPROTAX collapse_table.py
+
+  # --- R ---
+  - r-base=4.4
+  - r-optparse
+  - r-ggplot2
+  - r-vegan
+  - r-ape
+  - r-pheatmap
+  - r-circlize
+  - r-treemap            # ASV treemap fallback
+  - r-rstatix
+  - r-ggsci
+  - r-ggpubr
+  - r-reshape2
+  - r-dplyr
+  - r-tidyr
+  - r-rcolorbrewer
+  - r-patchwork
+  - r-ggrepel
+  - r-scales
+  - r-magrittr
+  - r-plyr
+  - r-cowplot
+  - r-picante            # (unweighted) UniFrac
+  - r-agricolae          # LSD.test -> significance letters
+  - r-multcompview       # multcompLetters -> significance letters
+  - r-data.tree
+  - r-venndiagram
+  - r-biocmanager
+  - r-ggraph
+  - r-tidygraph
+  - r-igraph
+  - r-graphlayouts
+  - r-ggforce
+  - r-tidyverse
+  - r-purrr
+  - r-broom
+  - r-devtools
+  - bioconductor-edger   # differential abundance
+
+# ------------------------------------------------------------------
+# `amplicon` (1.19.0) is NOT available from CRAN (archived) or conda.
+# It is a pure-R package (no compiled code) and is installed in the env
+# library:
+#   $CONDA_PREFIX/lib/R/library/amplicon
+# `agricolae` is its only missing Import and IS installed above.
+# ------------------------------------------------------------------

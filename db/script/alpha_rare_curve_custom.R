@@ -1,0 +1,82 @@
+#!/usr/bin/env Rscript
+# Alpha rarefaction curve - custom version using vegan
+# Replaces usearch -alpha_div_rare + amplicon::alpha_rare_curve
+
+suppressPackageStartupMessages(library("optparse"))
+suppressPackageStartupMessages(library("vegan"))
+suppressPackageStartupMessages(library("ggplot2"))
+suppressPackageStartupMessages(library(reshape2))
+
+option_list <- list(
+    make_option(c("-i", "--input"), type="character", default="result/otutab_rare.txt",
+                help="Rarefied OTU table [default %default]"),
+    make_option(c("-d", "--design"), type="character", default="result/metadata.txt",
+                help="Design or metadata [default %default]"),
+    make_option(c("-n", "--group"), type="character", default="Group",
+                help="Group column name [default %default]"),
+    make_option(c("-o", "--output"), type="character", default="result/alpha/",
+                help="Output directory [default %default]"),
+    make_option(c("-w", "--width"), type="numeric", default=120,
+                help="Figure width in mm [default %default]"),
+    make_option(c("-e", "--height"), type="numeric", default=59,
+                help="Figure height in mm [default %default]")
+)
+opts <- parse_args(OptionParser(option_list=option_list))
+suppressWarnings(dir.create(opts$output, showWarnings=FALSE))
+
+# Read OTU table (OTUs x samples)
+otutab <- read.table(opts$input, header=TRUE, row.names=1, sep="\t", comment.char="", check.names=FALSE)
+# Transpose: samples x OTUs
+otutab_t <- as.data.frame(t(otutab))
+
+# Read metadata
+metadata <- read.table(opts$design, header=TRUE, row.names=1, sep="\t", comment.char="", check.names=FALSE)
+
+# Compute rarefaction curves
+depth <- max(rowSums(otutab_t))
+step <- max(1, floor(depth / 50))
+out <- rarecurve(otutab_t, step=step, sample=depth, tidy=FALSE)
+
+# Build data frame for ggplot
+df_list <- list()
+for (i in seq_along(out)) {
+    # rarecurve() returns an UNNAMED list; the sample name must come from
+    # the row names of the (transposed) community matrix.
+    sample_name <- rownames(otutab_t)[i]
+    x_vals <- attr(out[[i]], "Subsample")
+    y_vals <- out[[i]]
+    grp <- if (sample_name %in% rownames(metadata)) {
+        as.character(metadata[sample_name, opts$group])
+    } else { "Unknown" }
+    df_list[[i]] <- data.frame(
+        Sample = sample_name,
+        Depth = x_vals,
+        Richness = y_vals,
+        Group = grp,
+        stringsAsFactors = FALSE
+    )
+}
+df <- do.call(rbind, df_list)
+df$Group <- factor(df$Group)
+
+# Calculate mean ± SE per group at each depth
+df_summary <- aggregate(Richness ~ Depth + Group, data=df, 
+                        FUN=function(x) c(mean=mean(x), se=sd(x)/sqrt(length(x))))
+df_summary <- do.call(data.frame, df_summary)
+colnames(df_summary) <- c("Depth", "Group", "MeanRichness", "SE")
+
+# Plot
+p <- ggplot(df_summary, aes(x=Depth, y=MeanRichness, color=Group, fill=Group)) +
+    geom_ribbon(aes(ymin=MeanRichness - SE, ymax=MeanRichness + SE), alpha=0.2, color=NA) +
+    geom_line(linewidth=0.8) +
+    labs(x="Sequencing Depth", y="Observed OTUs (Richness)") +
+    theme_bw(base_size=10) +
+    theme(
+        legend.position = c(0.85, 0.3),
+        legend.background = element_rect(fill="white", color="grey80"),
+        panel.grid.minor = element_blank()
+    )
+
+outfile <- file.path(opts$output, "alpha_rarefaction_curve.pdf")
+ggsave(outfile, p, width=opts$width, height=opts$height, units="mm")
+cat("Rarefaction curve saved to", outfile, "\n")

@@ -1,0 +1,41 @@
+# ==================================================================
+# selfwork_amplicon — 16S 分析流程
+# ==================================================================
+# 本仓库排除了体积过大的参考数据库与平台无关文件。
+# 完整说明见 README.md「3.4 数据库文件」与「8. 数据库获取」。
+# ==================================================================
+
+# ---- 大型参考数据库（请按 README 第 8 节自行下载）----
+# GreenGenes 97% 参考序列：166 MB，且单文件 137 MB 超过 GitHub 100 MB 硬上限
+db/gg/97_otus.fa
+db/gg/97_otus.fa.gz
+db/gg/16S_13_5_precalculated.tab.gz
+
+# RDP 16S 未压缩版：32 MB（仓库内保留 6.5 MB 的 .gz，脚本会自动解压）
+db/usearch/rdp_16s_v18.fa
+
+# 未在流程中使用的 UTAX 参考库：38 MB
+db/usearch/utax_reference_dataset_all_25.07.2023.fasta.gz
+
+# ---- Windows 版本二进制：73 MB，Linux 流程完全用不到 ----
+db/win/
+
+# ---- 未被 16s.sh 调用的工具自带的预计算缓存 ----
+db/script/BugBase/
+db/script/slime2/
+
+# ---- 运行期中间文件与大体积临时数据 ----
+# 注意：必须用前导 / 锚定到仓库根目录。
+# 若写成 `temp/` / `script/`，Git 会在任意层级匹配，从而误伤
+# db/script/（全部辅助脚本！）与 db/script/slime2/ 等目录。
+/temp/
+/script/
+/run.log
+
+# ---- R / 编辑器杂项 ----
+.Rhistory
+.RData
+.Rproj.user/
+/Rplots.pdf
+*~
+.DS_Store

@@ -1,0 +1,881 @@
+# Report for collapsed table: result/function/faprotax.txt
+# Collapsed table generated on: 2026.10.12 11:59:08
+# Original table: temp/fap_otu.txt
+# Details:
+#  Original classical table contained 298 rows and 11 columns
+#  After filtering rows & columns, obtained a table containing 298 rows & 9 columns
+#  After (potentially) filtering out records based on name, obtained a table comprising 298 records & 9 data entries per record
+# Used command:
+#   temp/collapse_table.py -i temp/fap_otu.txt -g /home/cz/16s/db/script/FAPROTAX_1.2.7/FAPROTAX.txt -o result/function/faprotax.txt -r result/function/faprotax_report.txt -d taxonomy --omit_columns 0 --column_names_are_in first_data_line --normalize_collapsed columns_before_collapsing
+#
+# Summary of group assignments:
+#   methanotrophy: 0 records
+#   acetoclastic_methanogenesis: 0 records
+#   methanogenesis_by_disproportionation_of_methyl_groups: 0 records
+#   methanogenesis_using_formate: 0 records
+#   methanogenesis_by_CO2_reduction_with_H2: 0 records
+#   methanogenesis_by_reduction_of_methyl_compounds_with_H2: 0 records
+#   hydrogenotrophic_methanogenesis: 0 records
+#   methanogenesis: 0 records
+#   methanol_oxidation: 0 records
+#   methylotrophy: 0 records
+#   aerobic_ammonia_oxidation: 0 records
+#   aerobic_nitrite_oxidation: 0 records
+#   nitrification: 0 records
+#   sulfate_respiration: 0 records
+#   sulfur_respiration: 0 records
+#   dark_sulfite_oxidation: 0 records
+#   sulfite_respiration: 0 records
+#   thiosulfate_respiration: 0 records
+#   respiration_of_sulfur_compounds: 0 records
+#   arsenate_detoxification: 0 records
+#   arsenate_respiration: 0 records
+#   dissimilatory_arsenate_reduction: 0 records
+#   arsenite_oxidation_detoxification: 0 records
+#   arsenite_oxidation_energy_yielding: 0 records
+#   dissimilatory_arsenite_oxidation: 0 records
+#   anammox: 0 records
+#   nitrate_denitrification: 0 records
+#   nitrite_denitrification: 0 records
+#   nitrous_oxide_denitrification: 0 records
+#   denitrification: 0 records
+#   chitinolysis: 0 records
+#   knallgas_bacteria: 0 records
+#   dark_hydrogen_oxidation: 0 records
+#   nitrogen_fixation: 0 records
+#   nitrate_ammonification: 0 records
+#   nitrite_ammonification: 0 records
+#   nitrite_respiration: 0 records
+#   cellulolysis: 0 records
+#   xylanolysis: 0 records
+#   dark_sulfide_oxidation: 0 records
+#   dark_sulfur_oxidation: 0 records
+#   dark_thiosulfate_oxidation: 0 records
+#   dark_oxidation_of_sulfur_compounds: 0 records
+#   manganese_oxidation: 0 records
+#   manganese_respiration: 0 records
+#   ligninolysis: 0 records
+#   fermentation: 145 records
+#   aerobic_chemoheterotrophy: 57 records
+#   invertebrate_parasites: 0 records
+#   human_pathogens_septicemia: 0 records
+#   human_pathogens_pneumonia: 0 records
+#   human_pathogens_nosocomia: 0 records
+#   human_pathogens_meningitis: 0 records
+#   human_pathogens_gastroenteritis: 0 records
+#   human_pathogens_diarrhea: 0 records
+#   human_pathogens_all: 0 records
+#   fish_parasites: 0 records
+#   human_gut: 13 records
+#   human_associated: 13 records
+#   mammal_gut: 13 records
+#   animal_parasites_or_symbionts: 13 records
+#   plant_pathogen: 0 records
+#   oil_bioremediation: 0 records
+#   aromatic_hydrocarbon_degradation: 0 records
+#   aromatic_compound_degradation: 10 records
+#   aliphatic_non_methane_hydrocarbon_degradation: 0 records
+#   hydrocarbon_degradation: 0 records
+#   dark_iron_oxidation: 0 records
+#   iron_respiration: 0 records
+#   nitrate_respiration: 1 records
+#   nitrate_reduction: 46 records
+#   nitrogen_respiration: 1 records
+#   fumarate_respiration: 0 records
+#   intracellular_parasites: 0 records
+#   chlorate_reducers: 0 records
+#   predatory_or_exoparasitic: 0 records
+#   chloroplasts: 0 records
+#   nonphotosynthetic_cyanobacteria: 0 records
+#   photosynthetic_cyanobacteria: 0 records
+#   anoxygenic_photoautotrophy_H2_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_S_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_Fe_oxidizing: 0 records
+#   anoxygenic_photoautotrophy: 0 records
+#   oxygenic_photoautotrophy: 0 records
+#   photoautotrophy: 0 records
+#   aerobic_anoxygenic_phototrophy: 0 records
+#   photoheterotrophy: 0 records
+#   phototrophy: 0 records
+#   plastic_degradation: 0 records
+#   ureolysis: 0 records
+#   reductive_acetogenesis: 0 records
+#   chemoheterotrophy: 182 records
+#
+# Loaded 92 groups comprising 8357 members (5068 unique members)
+# Established 494 assignments of records to groups
+# 182 out of 298 records (61.0738 %) were assigned to at least one group
+# 116 out of 298 records (38.9262 %) could not be assigned to any group (leftovers)
+# 11 groups were represented (i.e. associated with at least one record)
+# Detailed group assignments are listed below
+
+# methanotrophy (0 records):
+
+
+# acetoclastic_methanogenesis (0 records):
+
+
+# methanogenesis_by_disproportionation_of_methyl_groups (0 records):
+
+
+# methanogenesis_using_formate (0 records):
+
+
+# methanogenesis_by_CO2_reduction_with_H2 (0 records):
+
+
+# methanogenesis_by_reduction_of_methyl_compounds_with_H2 (0 records):
+
+
+# hydrogenotrophic_methanogenesis (0 records):
+
+
+# methanogenesis (0 records):
+
+
+# methanol_oxidation (0 records):
+
+
+# methylotrophy (0 records):
+
+
+# aerobic_ammonia_oxidation (0 records):
+
+
+# aerobic_nitrite_oxidation (0 records):
+
+
+# nitrification (0 records):
+
+
+# sulfate_respiration (0 records):
+
+
+# sulfur_respiration (0 records):
+
+
+# dark_sulfite_oxidation (0 records):
+
+
+# sulfite_respiration (0 records):
+
+
+# thiosulfate_respiration (0 records):
+
+
+# respiration_of_sulfur_compounds (0 records):
+
+
+# arsenate_detoxification (0 records):
+
+
+# arsenate_respiration (0 records):
+
+
+# dissimilatory_arsenate_reduction (0 records):
+
+
+# arsenite_oxidation_detoxification (0 records):
+
+
+# arsenite_oxidation_energy_yielding (0 records):
+
+
+# dissimilatory_arsenite_oxidation (0 records):
+
+
+# anammox (0 records):
+
+
+# nitrate_denitrification (0 records):
+
+
+# nitrite_denitrification (0 records):
+
+
+# nitrous_oxide_denitrification (0 records):
+
+
+# denitrification (0 records):
+
+
+# chitinolysis (0 records):
+
+
+# knallgas_bacteria (0 records):
+
+
+# dark_hydrogen_oxidation (0 records):
+
+
+# nitrogen_fixation (0 records):
+
+
+# nitrate_ammonification (0 records):
+
+
+# nitrite_ammonification (0 records):
+
+
+# nitrite_respiration (0 records):
+
+
+# cellulolysis (0 records):
+
+
+# xylanolysis (0 records):
+
+
+# dark_sulfide_oxidation (0 records):
+
+
+# dark_sulfur_oxidation (0 records):
+
+
+# dark_thiosulfate_oxidation (0 records):
+
+
+# dark_oxidation_of_sulfur_compounds (0 records):
+
+
+# manganese_oxidation (0 records):
+
+
+# manganese_respiration (0 records):
+
+
+# ligninolysis (0 records):
+
+
+# fermentation (145 records):
+    d:Bacteria,p:Actinobacteria,c:Actinobacteria,o:Micrococcales,f:Micrococcaceae,g:Rothia
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Porphyromonadaceae,g:Parabacteroides
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Aerococcaceae,g:Aerococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Vagococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Vagococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Vagococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Lactobacillaceae,g:Lactobacillus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Lactobacillaceae,g:Weissella
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Lactobacillaceae,g:Weissella
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Lactococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Lactococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Lactococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paeniclostridium
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paraclostridium
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paraclostridium
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paraclostridium
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Fusobacteria,c:Fusobacteriia,o:Fusobacteriales,f:Fusobacteriaceae,g:Fusobacterium
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+
+
+# aerobic_chemoheterotrophy (57 records):
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Alcaligenaceae,g:Alcaligenes
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Alcaligenaceae,g:Alcaligenes
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Shewanellaceae,g:Shewanella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+
+
+# invertebrate_parasites (0 records):
+
+
+# human_pathogens_septicemia (0 records):
+
+
+# human_pathogens_pneumonia (0 records):
+
+
+# human_pathogens_nosocomia (0 records):
+
+
+# human_pathogens_meningitis (0 records):
+
+
+# human_pathogens_gastroenteritis (0 records):
+
+
+# human_pathogens_diarrhea (0 records):
+
+
+# human_pathogens_all (0 records):
+
+
+# fish_parasites (0 records):
+
+
+# human_gut (13 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+
+
+# human_associated (13 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+
+
+# mammal_gut (13 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+
+
+# animal_parasites_or_symbionts (13 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+
+
+# plant_pathogen (0 records):
+
+
+# oil_bioremediation (0 records):
+
+
+# aromatic_hydrocarbon_degradation (0 records):
+
+
+# aromatic_compound_degradation (10 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+
+
+# aliphatic_non_methane_hydrocarbon_degradation (0 records):
+
+
+# hydrocarbon_degradation (0 records):
+
+
+# dark_iron_oxidation (0 records):
+
+
+# iron_respiration (0 records):
+
+
+# nitrate_respiration (1 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Shewanellaceae,g:Shewanella
+
+
+# nitrate_reduction (46 records):
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Shewanellaceae,g:Shewanella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+
+
+# nitrogen_respiration (1 records):
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Shewanellaceae,g:Shewanella
+
+
+# fumarate_respiration (0 records):
+
+
+# intracellular_parasites (0 records):
+
+
+# chlorate_reducers (0 records):
+
+
+# predatory_or_exoparasitic (0 records):
+
+
+# chloroplasts (0 records):
+
+
+# nonphotosynthetic_cyanobacteria (0 records):
+
+
+# photosynthetic_cyanobacteria (0 records):
+
+
+# anoxygenic_photoautotrophy_H2_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_S_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_Fe_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy (0 records):
+
+
+# oxygenic_photoautotrophy (0 records):
+
+
+# photoautotrophy (0 records):
+
+
+# aerobic_anoxygenic_phototrophy (0 records):
+
+
+# photoheterotrophy (0 records):
+
+
+# phototrophy (0 records):
+
+
+# plastic_degradation (0 records):
+
+
+# ureolysis (0 records):
+
+
+# reductive_acetogenesis (0 records):
+
+
+# chemoheterotrophy (182 records):
+    d:Bacteria,p:Actinobacteria,c:Actinobacteria,o:Micrococcales,f:Micrococcaceae,g:Rothia
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Bacteroidaceae,g:Bacteroides
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Dysgonomonadaceae,g:Dysgonomonas
+    d:Bacteria,p:Bacteroidetes,c:Bacteroidia,o:Bacteroidales,f:Porphyromonadaceae,g:Parabacteroides
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Aerococcaceae,g:Aerococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Enterococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Vagococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Vagococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Enterococcaceae,g:Vagococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Lactobacillaceae,g:Lactobacillus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Lactobacillaceae,g:Weissella
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Lactobacillaceae,g:Weissella
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Lactococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Lactococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Lactococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Bacilli,o:Lactobacillales,f:Streptococcaceae,g:Streptococcus
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paeniclostridium
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paraclostridium
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paraclostridium
+    d:Bacteria,p:Firmicutes,c:Clostridia,o:Clostridiales,f:Peptostreptococcaceae,g:Paraclostridium
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Firmicutes,c:Negativicutes,o:Veillonellales,f:Veillonellaceae,g:Veillonella
+    d:Bacteria,p:Fusobacteria,c:Fusobacteriia,o:Fusobacteriales,f:Fusobacteriaceae,g:Fusobacterium
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Alcaligenaceae,g:Alcaligenes
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Alcaligenaceae,g:Alcaligenes
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Comamonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Aeromonadales,f:Aeromonadaceae,g:Aeromonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Shewanellaceae,g:Shewanella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Citrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Enterobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Enterobacterales,f:Enterobacteriaceae,g:Klebsiella
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Acinetobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Pseudomonadaceae,g:Pseudomonas
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+    d:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio
+
+
